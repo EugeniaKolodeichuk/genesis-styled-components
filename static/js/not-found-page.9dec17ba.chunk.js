@@ -1,0 +1,2 @@
+(this["webpackJsonpgenesis-styled-components"]=this["webpackJsonpgenesis-styled-components"]||[]).push([[5],{59:function(n,e,t){"use strict";t.r(e),t.d(e,"default",(function(){return r}));var s,c=t(5),i=t(4).c.h1(s||(s=Object(c.a)(["\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 30px;\n"]))),o=t(1);function r(){return Object(o.jsx)(i,{children:"404 Page not found"})}}}]);
+//# sourceMappingURL=not-found-page.9dec17ba.chunk.js.map
