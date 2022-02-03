@@ -1,12 +1,11 @@
 import shortid from "shortid";
-import defaultImage from "../default_photo.png";
-/* import styles from './views.module.css'; */
+import defaultImage from "../../static/default_photo.png";
 import {
   StyledMain,
   StyledListNoorder,
   StyledImage,
   StyledItemsNoorder,
-} from "../styled/Cast";
+} from "./StyledCast";
 
 export default function Casts({ actors }) {
   return (

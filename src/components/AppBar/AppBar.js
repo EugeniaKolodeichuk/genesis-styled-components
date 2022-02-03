@@ -1,6 +1,5 @@
 import Navigation from "../Navigation/Navigation";
-/* import styles from "../AppBar/AppBar.module.css"; */
-import { StyledAppBar } from "../../styled/AppBar";
+import { StyledAppBar } from "./StyledAppBar";
 
 function AppBar() {
   return (

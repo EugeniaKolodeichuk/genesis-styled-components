@@ -1,10 +1,9 @@
-/* import styles from "./views.module.css"; */
 import {
   StyledMain,
   StyledListNoorder,
   StyledItemsNoorder,
   StyledTitle,
-} from "../styled/Reviews";
+} from "./StyledReviews";
 
 export default function Reviews({ reviews }) {
   return (

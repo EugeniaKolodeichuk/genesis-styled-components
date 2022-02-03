@@ -4,8 +4,7 @@ import { useHistory } from "react-router";
 import { toast } from "react-toastify";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import * as filmsAPI from "../services/apiService";
-/* import styles from "./views.module.css"; */
+import * as filmsAPI from "../../services/apiService";
 import {
   StyledButton,
   StyledForm,
@@ -13,7 +12,7 @@ import {
   StyledListNoorder,
   StyledItemsNoorder,
   StyledLink,
-} from "../styled/MoviesPage";
+} from "./StyledMoviesPage";
 
 export default function MoviesPage() {
   const location = useLocation();

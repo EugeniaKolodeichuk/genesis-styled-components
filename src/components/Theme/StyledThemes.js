@@ -1,16 +1,18 @@
 export const LightTheme = {
-  id: "light",
   color: "#000",
   background: "#fff",
+  toggleBorder: "#2196f3",
+  gradient: "#fff",
 };
 
 export const DarkTheme = {
-  id: "dark",
   color: "#fff",
   background: "#000",
+  toggleBorder: "#fff",
+  gradient: "#bdbdbd",
 };
 
-export const themes = {
-  light: LightTheme,
+export const theme = {
   dark: DarkTheme,
+  light: LightTheme,
 };

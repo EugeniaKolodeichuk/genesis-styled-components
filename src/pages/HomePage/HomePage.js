@@ -1,14 +1,13 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import * as filmsAPI from "../services/apiService";
+import * as filmsAPI from "../../services/apiService";
 import {
   StyledMain,
   StyledTitle,
   StyledListOrder,
   StyledItemsOrder,
   StyledLink,
-} from "../styled/Homepage";
-/* import styles from "./views.module.css"; */
+} from "./StyledHomepage";
 
 export default function HomePage() {
   const location = useLocation();
@@ -21,7 +20,7 @@ export default function HomePage() {
 
   return (
     <StyledMain>
-      <StyledTitle>Trending today</StyledTitle>
+      <StyledTitle>Trending movies today</StyledTitle>
       <StyledListOrder>
         {films.results &&
           films.results.map((film) => (

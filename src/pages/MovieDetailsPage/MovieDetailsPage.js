@@ -1,8 +1,8 @@
 import { useState, useEffect, lazy, Suspense } from "react";
 import { useParams, useLocation, useHistory } from "react-router";
 import { Route, useRouteMatch } from "react-router-dom";
-import * as filmsAPI from "../services/apiService";
-import defaultImage from "../default_photo.png";
+import * as filmsAPI from "../../services/apiService";
+import defaultImage from "../../static/default_photo.png";
 import {
   StyledImage,
   StyledMain,
@@ -10,12 +10,13 @@ import {
   StyledListNoorder,
   StyledItemsNoorder,
   StyledNavLink,
-} from "../styled/MovieDetailsPage";
-/* import styles from './views.module.css'; */
+} from "./StyledMovieDetailsPage";
 
-const Casts = lazy(() => import("./Cast.js" /*webpackChunkName: "casts"*/));
+const Casts = lazy(() =>
+  import("../Cast/Cast.js" /*webpackChunkName: "casts"*/)
+);
 const Reviews = lazy(() =>
-  import("./Reviews.js" /*webpackChunkName: "reviews"*/)
+  import("../Reviews/Reviews.js" /*webpackChunkName: "reviews"*/)
 );
 
 export default function MovieDetailsPage() {
